@@ -80,9 +80,14 @@ foreach ($task_rows as $task) {
                             </form>
                         </div>
                     </li>
+
                 <?php endforeach ?>
+
             </ul>
-            <button class="clear-btn" type="button">Clear All Task</button>
+            <form action="clear.php" method="post">
+                <button class="clear-btn" type="submit">Clear All Task</button>
+            </form>
+
         </div>
     </main>
     <script src="app.js"></script>
