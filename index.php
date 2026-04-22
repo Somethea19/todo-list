@@ -39,6 +39,7 @@ foreach ($task_rows as $task) {
 </head>
 
 <body>
+    
     <main>
         <div class="container">
             <div class="todo-traker">
